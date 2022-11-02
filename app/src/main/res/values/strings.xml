@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Identity</string>
+    <string-array name="students">
+         <item>
+            lol
+         </item>
+         <item>
+            lol2
+         </item>
+         <item>
+            lol3
+         </item>
+         <item>
+         lol1
+         </item>
+
+    </string-array>
+</resources>

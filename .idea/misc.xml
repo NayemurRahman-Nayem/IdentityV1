@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Identity/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.195" />
+        <entry key="..\:/Identity/app/src/main/res/drawable/back.xml" value="0.195" />
+        <entry key="..\:/Identity/app/src/main/res/drawable/circle.xml" value="0.195" />
+        <entry key="..\:/Identity/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.195" />
+        <entry key="..\:/Identity/app/src/main/res/drawable/ic_ident.xml" value="0.301" />
+        <entry key="..\:/Identity/app/src/main/res/drawable/ic_launcher_background.xml" value="0.195" />
+        <entry key="..\:/Identity/app/src/main/res/drawable/img.xml" value="0.195" />
+        <entry key="..\:/Identity/app/src/main/res/layout/activity_main.xml" value="0.2470534904805077" />
+        <entry key="..\:/Identity/app/src/main/res/layout/forget_pass.xml" value="0.16500453309156846" />
+        <entry key="..\:/Identity/app/src/main/res/layout/landing.xml" value="0.16364460562103356" />
+        <entry key="..\:/Identity/app/src/main/res/layout/landing_table.xml" value="0.27276613937580163" />
+        <entry key="..\:/Identity/app/src/main/res/layout/list_view.xml" value="0.2736212056434374" />
+        <entry key="..\:/Identity/app/src/main/res/layout/message.xml" value="0.16500453309156846" />
+        <entry key="..\:/Identity/app/src/main/res/layout/profile.xml" value="0.18127404873877725" />
+        <entry key="..\:/Identity/app/src/main/res/layout/register.xml" value="0.2" />
+        <entry key="..\:/Identity/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3395" />
+        <entry key="..\:/Identity/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3395" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

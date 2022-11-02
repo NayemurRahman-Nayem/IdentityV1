@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    >
+    <TableRow>
+
+            <TextView
+                android:id="@+id/home1"
+                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="60dp"
+                 android:text="Home"
+                android:layout_weight="18"
+                android:fontFamily="@font/ubuntu_mono_bold"
+                android:textAlignment="center"
+                android:textSize="35dp"
+                >
+            </TextView>
+
+        <ImageView
+            android:id="@+id/Mess"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+
+            android:src="@android:drawable/ic_dialog_email"
+            >
+        </ImageView>
+        <ImageView
+            android:id="@+id/goProfile"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+
+            android:src="@drawable/ic_baseline_account_circle_24"
+            >
+        </ImageView>
+
+    </TableRow>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="3dp"
+            android:background="#22010C"
+            android:layout_weight="0"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            >
+
+        </TextView>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/land_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/land_profession"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profession"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/land_dist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dist."
+            android:layout_weight="0.5"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/land_request"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Request"
+            android:layout_weight="1"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+    </TableRow>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="3dp"
+        android:background="#22010C"
+        android:layout_weight="0"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        >
+
+    </TextView>
+
+    <TableRow>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sarker"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0.5m."
+            android:layout_weight="0.5"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+      <ImageView
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:src="@android:drawable/ic_input_add"
+          >
+
+      </ImageView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alen"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Banker"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1m."
+            android:layout_weight="0.5"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_input_add"
+            >
+
+        </ImageView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alex"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editor"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10m."
+            android:layout_weight="0.5"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_input_add"
+            >
+
+        </ImageView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masud"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editor"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10m."
+            android:layout_weight="0.5"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_input_add"
+            >
+
+        </ImageView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rony"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Professor"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10m."
+            android:layout_weight="0.5"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_input_add"
+            >
+
+        </ImageView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alex"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Programmer"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10m."
+            android:layout_weight="0.5"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_input_add"
+            >
+
+        </ImageView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alex"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editor"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10m."
+            android:layout_weight="0.5"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_input_add"
+            >
+
+        </ImageView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Java"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editor"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10m."
+            android:layout_weight="0.5"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_input_add"
+            >
+
+        </ImageView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alex"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editor"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10m."
+            android:layout_weight="0.5"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_input_add"
+            >
+
+        </ImageView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alex"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editor"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10m."
+            android:layout_weight="0.5"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_input_add"
+            >
+
+        </ImageView>
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alex"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editor"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10m."
+            android:layout_weight="0.5"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_input_add"
+            >
+
+        </ImageView>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amir"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editor"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10m."
+            android:layout_weight="0.5"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_input_add"
+            >
+
+        </ImageView>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alex"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editor"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10m."
+            android:layout_weight="0.5"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_input_add"
+            >
+
+        </ImageView>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alaul"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editor"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+
+            android:layout_height="wrap_content"
+            android:text="10m."
+            android:layout_weight="0.5"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_input_add"
+            >
+
+        </ImageView>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alex"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Teacher"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10m."
+            android:layout_weight="0.5"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_input_add"
+            >
+
+        </ImageView>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alex"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editor"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10m."
+            android:layout_weight="0.5"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_input_add"
+            >
+
+        </ImageView>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Babul"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Player"
+            android:layout_weight="0"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1000m."
+            android:layout_weight="0.5"
+            android:fontFamily="@font/ubuntu"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            >
+        </TextView>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@android:drawable/ic_input_add"
+            >
+
+        </ImageView>
+
+    </TableRow>
+
+</TableLayout>
