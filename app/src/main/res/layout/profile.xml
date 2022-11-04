@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginLeft="15dp"
-
    >
+
     <TextView
         android:id="@+id/profile"
         android:layout_width="wrap_content"
@@ -20,19 +20,13 @@
         android:layout_alignParentTop="true"
         />
 
-
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/image"
         android:layout_width="200dp"
-
         android:layout_height="185dp"
         android:layout_below="@+id/profile"
-
-
         android:layout_centerInParent="true"
         android:layout_marginBottom="30dp"
-
-
         android:src="@drawable/formal_1" />
 
     <TextView
@@ -64,6 +58,7 @@
         android:fontFamily="@font/ubuntu_medium"
         android:text="About : Programming"
         android:textSize="20dp" />
+
     <TextView
         android:id="@+id/age"
         android:layout_width="match_parent"
@@ -83,6 +78,7 @@
         android:layout_below="@+id/age"
         android:text="Student"
         android:textSize="20dp" />
+
 
     <TextView
         android:id="@+id/country"
@@ -104,7 +100,7 @@
         android:textSize="20dp" />
 
     <TextView
-        android:id="@+id/cng_pass"
+        android:id="@+id/change_pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/rating"

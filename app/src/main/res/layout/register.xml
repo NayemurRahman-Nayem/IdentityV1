@@ -9,13 +9,10 @@
 
     >
 
-
     <TextView
         android:id="@+id/txtWelcome"
         android:layout_width="wrap_content"
-
         android:layout_height="wrap_content"
-
         android:layout_marginTop="50dp"
         android:layout_marginLeft="100dp"
         android:text="Identity"
@@ -58,7 +55,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/profession"
-
         android:layout_centerInParent="true"
         android:hint="Enter password"
         android:inputType="textPassword"
@@ -69,50 +65,66 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/passReg"
-
         android:layout_centerInParent="true"
         android:hint="Confirm password"
         android:inputType="textPassword"
         android:textSize="23dp" />
 
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passConf"
+        android:hint="Enter your age "
+        android:inputType="textPassword"
+        android:textSize="23dp"
+
+        />
+
+
+    <EditText
+        android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Country"
+        android:layout_below="@+id/age"
+        android:inputType="textPassword"
+        android:textSize="23dp"
+
+        />
+
+
     <Button
         android:id="@+id/btnReg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/passConf"
+        android:layout_below="@id/country"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
         android:layout_marginTop="60dp"
         android:background="@color/teal_700"
-
         android:text="Register" />
 
     <TextView
         android:id="@+id/txtRegWithGmail"
         android:layout_width="wrap_content"
-
         android:layout_height="wrap_content"
-
         android:layout_below="@id/btnReg"
         android:text="Register with gmail"
         android:textColor="#2F3A82"
         android:layout_marginBottom="20dp"
         android:textSize="17sp"
-
         />
 
     <TextView
         android:id="@+id/haveAcc"
         android:layout_width="wrap_content"
-
         android:layout_height="wrap_content"
-
         android:layout_below="@id/txtRegWithGmail"
         android:text="Already have an account?"
         android:textColor="@color/purple_700"
         android:layout_marginBottom="20dp"
         android:textSize="17sp"
-
         />
 
 
